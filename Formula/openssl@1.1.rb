@@ -60,6 +60,7 @@ class OpensslAT11 < Formula
       no-ssl3
       no-ssl3-method
       no-zlib
+      -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include 
     ]
     on_linux do
       args += (ENV.cflags || "").split
